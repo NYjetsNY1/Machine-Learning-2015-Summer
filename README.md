@@ -5,7 +5,7 @@ Downloading, Installation, and Running:
 First, install this. This will install almost everything you need.
 http://orange.biolab.si/download/files/orange-win-w-python-snapshot-hg-2015-07-06-py2.7.exe
 
-This will install Python 2.7, numpy, scipy, and Orange for windows.
+This will install Python 2.7, numpy, scipy, and Orange for Windows.
 
 This package is recommended to those installing Orange for the first time. It includes all required libraries (Python, PythonWin, NumPy, PyQt, PyQwt ...), though it will not change any libraries you might already have.
 
@@ -21,7 +21,7 @@ Create a new folder called “Machine-Learning”:
 7. (starter)001-(starter)00X_All_Data.csv (The Excel files for the Oxy/Deoxy levels)
 8.(Optional) ROI_(starter)001-ROI_(starter)00X.txt(ROI text files) OR ROI_file_(starter)000s.txt
 
-For 8.,there are two lines of code, one supporting ROI_(starter) and one supporting ROI_...000s.txt, Just comment/uncomment out which line you are using/not using
+For 8., there are two lines of code, one supporting ROI_(starter) and one supporting ROI_...000s.txt. Just comment/uncomment out which line you are using/not using.
 
 You should have multiple files in one folder/directory per set of conditions: 5 Python code files, many Conditions files, many Participant Data files, and 1 ROI file.
 
