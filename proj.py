@@ -8,7 +8,7 @@
 #   and other miscellaneous Machine Learning techniques (see the attached      #
 #   Diane Paverman/Eric Murray and Orange files) on an inputted set of data    #
 #   and condition files. The names of these files, the choice to use ROI or    #
-#   zscore, the conditions being tested,lengths for SAX, and a couple of       #
+#   zscore, the conditions being tested, lengths for SAX, and a couple of      #
 #   parameters for Orange can be changed below in the main function,           #
 #   highlighted by comments in capital letters in the section USER INPUTS.     #
 #   Enjoy.                                                                     #
