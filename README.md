@@ -61,14 +61,15 @@ n_num: How many features you’d like to use. Currently set to 100. Thus N = 100
 
 What Our Code Actually Accomplishes:
 Our code will take each participant + their conditions file, and:
-Open the necessary .csv files
-Split the .csv “All_Data” file into Oxy/Deoxy files
-Create a Marks file (required for the .arff generator)
-Make an .arff file and a .tab file (SAX) used in Machine-Learning
-Concatenate data
-Z-Score the data (if wanted)
-ROI - Region of Analysis (if wanted)
-Do 3 types of Machine Learning separated into two different .csv excel files per participant, and then to all the data that was concatenated into one “All_3000s_Data” file. The Machine Learning will tell you the accuracy and the AUC (area-under-the-curve).
+
+1. Open the necessary .csv files
+2. Split the .csv “All_Data” file into Oxy/Deoxy files
+3. Create a Marks file (required for the .arff generator)
+4. Make an .arff file and a .tab file (SAX) used in Machine-Learning
+5. Concatenate data
+6. Z-Score the data (if wanted)
+7. ROI - Region of Analysis (if wanted)
+8. Do 3 types of Machine Learning separated into two different .csv excel files per participant, and then to all the data that was concatenated into one “All_3000s_Data” file. The Machine Learning will tell you the accuracy and the AUC (area-under-the-curve).
 
 
 Running Code Simultaneously:
